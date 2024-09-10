@@ -1,0 +1,132 @@
+body {
+
+margin: 0;
+
+
+}
+
+nav {
+
+  background-color: #F1E9DB;
+    outline-color: blue;
+ display: flex;
+ justify-content: space-between;
+ font-size:large;
+}
+
+footer {
+
+    background-color: #985F6F;
+    outline-style:outset;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Baskervville SC', serif;
+    font-size: 20px;
+    color:#5120bb;
+}
+
+img {
+    border-style:double;
+
+}
+
+body p:nth-child(4) {
+    color: #556F44;
+    font-style: oblique;
+    font-size: 16px;
+    
+}
+
+body p:nth-child(5) {
+    color: #7E52A0;
+    font-style: unset;
+    font-size: 16px;
+}
+
+hr {
+    border: width 20px;
+    border-style:groove;
+}
+
+h2 {
+    font: italic;
+    font-family: "Moderustic", sans-serif;
+    color: #201E50;
+    
+}
+
+.edu {
+
+    color:brown;
+    border-style:double;
+}
+
+ul {
+    list-style-type:circle;
+    margin: top 5px;
+}
+
+dl {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color:#201E50;
+    text-decoration: none;
+}
+
+a:hover{
+
+    font-size:xx-large;
+}
+
+footer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+}
+
+.three-col{
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.three-col img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.card {
+
+box-shadow: 20;
+
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+
+background-color:aliceblue;
+
+
+}
+
+.one-col {
+    display:flex;
+    flex-direction: column;
+}
+
+input {
+
+background-color:antiquewhite;
+}
+
+textarea {
+
+    background-color: antiquewhite;
+}
